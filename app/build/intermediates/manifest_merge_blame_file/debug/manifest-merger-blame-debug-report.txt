@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="jcc.example.com.browseimg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:5:5-66
+11-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:6:5-78
+12-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:7:5-75
+13-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:8:5-85
+14-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:8:22-83
+15
+16    <application
+16-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:10:5-28:19
+17        android:name="jcc.example.com.browseimg.JApp"
+17-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:14:9-29
+18        android:allowBackup="true"
+18-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:11:9-35
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:16:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:17:9-40
+26        <activity android:name="jcc.example.com.browseimg.MainActivity" >
+26-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:18:9-24:20
+26-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:18:19-47
+27            <intent-filter>
+27-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:20:17-68
+28-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:22:17-76
+30-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:25:9-27:58
+34            android:name="jcc.example.com.browseimg.JBrowseImgActivity"
+34-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:25:19-53
+35            android:screenOrientation="portrait"
+35-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:26:13-49
+36            android:theme="@style/FullscreenTransTheme" />
+36-->E:\practice\BrowseImg-master\BrowseImg-master\app\src\main\AndroidManifest.xml:27:13-56
+37
+38        <meta-data
+38-->[com.android.support:appcompat-v7:26.1.0] C:\Users\svipw\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+39            android:name="android.support.VERSION"
+39-->[com.android.support:appcompat-v7:26.1.0] C:\Users\svipw\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+40            android:value="26.1.0" />
+40-->[com.android.support:appcompat-v7:26.1.0] C:\Users\svipw\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+41        <meta-data
+41-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\svipw\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+42            android:name="android.arch.lifecycle.VERSION"
+42-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\svipw\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:26:13-58
+43            android:value="27.0.0-SNAPSHOT" />
+43-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\svipw\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:27:13-44
+44    </application>
+45
+46</manifest>
